@@ -2,7 +2,16 @@
 
 A modern, professional queue management system for clinics, hospitals, or service centers. Built with React, Vite, TailwindCSS, and Socket.IO for real-time updates, plus a Node.js/Express backend with MongoDB, JWT authentication, and integration-ready notification services (SMS, Email, WhatsApp).
 
+![License](https://img.shields.io/badge/license-MIT-green)
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Node](https://img.shields.io/badge/node-%3E%3D18-blue)
+
 ---
+
+## Live Demo
+- https://token-notification-system.vercel.app/
+- Username: demoUser
+- Password: 123456
 
 ## Table of Contents
 
@@ -66,8 +75,6 @@ flowchart TD
     UpdateSkipped --> ReturnSkipped[Return Updated Token]
     Saved --> Delete[DELETE /api/tokens/:id]
     Delete --> ReturnDeleted[Return Deleted Token]
-```
-
 ---
 
 ## Folder Structure
